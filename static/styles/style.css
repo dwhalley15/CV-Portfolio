@@ -1,0 +1,163 @@
+body{
+  background-color: #B4C8CF;
+  color: #547683;
+  font-family: Helvetica, sans-serif;
+}
+
+#header{
+  width: 83%;
+  margin-left: 240px;
+  margin-bottom: 20px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  background-color: #dae4e7;
+  border-style: outset;
+}
+
+#footer{
+  width: 94%;
+  margin-top: 20px;
+  margin-left: 22px;
+  margin-bottom: 10px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  background-color: #dae4e7;
+  border-style: outset;
+}
+
+#education{
+  background-color: #dae4e7;
+  border-style: outset;
+  padding: 10px 20px 20px 30px;
+  float: left;
+  margin: 20px;
+  width: 93%;
+  text-align: center;
+}
+
+#workExperience{
+  background-color: #dae4e7;
+  border-style: outset;
+  padding: 10px 20px 20px 30px;
+  float: left;
+  margin: 20px;
+  width: 93%;
+  text-align: center;
+}
+
+#contact{
+  width: 200px;
+  height: 95%;
+  display: block;
+  position: fixed;
+  z-index: 1;
+  margin: 2px;
+  overflow: auto;
+  padding: 10px 5px 10px 5px;
+  background-color: #dae4e7;
+  border-style: outset;
+  text-align: center;
+}
+
+#main{
+  margin-left: 210px;
+  padding: 0px 10px;
+  float: left;
+}
+
+#intro{
+  background-color: #dae4e7;
+  border-style: outset;
+  padding: 10px 20px 20px 30px;
+  float: left;
+  margin: 20px;
+  width: 93%;
+  text-align: center;
+}
+
+#keySkills{
+  background-color: #dae4e7;
+  border-style: outset;
+  padding: 10px 20px 20px 30px;
+  float: left;
+  margin: 20px;
+  width: 93%;
+  text-align: center;
+}
+
+#skillsList{
+  padding-left: 46%;
+}
+
+#keySkills li {
+  text-align: left;
+  list-style-type: square;
+}
+
+#icons{
+  text-decoration: none;
+}
+
+img{
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.icon{
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+.icon:active{
+  transform: translateY(4px);
+}
+
+.metaphor{
+  float: left;
+  width: 18px;
+  height: 18px;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+button{
+  transition-duration: 0.4s;
+  color: #547683;
+  background-color: #f3f6f7;
+  border-color: #547683;
+  border-style: outset;
+  font-family: Helvetica, sans-serif;
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color: #547683;
+  color: #f3f6f7;
+  cursor: pointer;
+}
+
+button:active{
+  transform: translateY(4px);
+}
+
+ol{
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+li{
+  padding-left: 0px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+a{
+  color: #547683;
+  font-family: Helvetica, sans-serif;
+}
